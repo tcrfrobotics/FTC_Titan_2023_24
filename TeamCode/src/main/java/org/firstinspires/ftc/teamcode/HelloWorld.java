@@ -17,7 +17,11 @@ public class HelloWorld extends OpMode {      //Creating a class
         /* init function is called to define what will happen
         when we press INIT button in driver hub */
 
+<<<<<<< HEAD
         telemetry.addData("Text is: ","My Name is Shayden:)");  // Sending data to the driver hub
+=======
+        telemetry.addData("Text is: ","My Name is Shafiq");  // Sending data to the driver hub
+>>>>>>> origin/main
     }
     @Override
     public void loop(){

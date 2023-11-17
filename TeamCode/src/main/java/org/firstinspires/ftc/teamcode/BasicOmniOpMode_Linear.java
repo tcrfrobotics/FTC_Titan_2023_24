@@ -195,7 +195,10 @@ public class BasicOmniOpMode_Linear extends LinearOpMode {
             telemetry.addData("Button X","Slow");
             telemetry.addData("Button Y","Super Slow");
 
+<<<<<<< HEAD
             telemetry.addData("Shayden/Alex", "Null");
+=======
+>>>>>>> origin/main
             telemetry.addData("Current Mode", mode);
             telemetry.update();
         }
